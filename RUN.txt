@@ -1,0 +1,105 @@
+step [1]: COMPILING AND OBJECT CREATING
+
+g++ TransmitterCode.cpp -c
+g++ TransmitterCode.cpp -o TransmitterCode
+
+g++ ReceiverProgram.cpp -c
+g++ ReceiverProgram.cpp -o ReceiverProgram
+
+g++ allData.cpp -c
+g++ allData.cpp -o allData
+
+g++ bipolarAMIprogram.cpp -c
+g++ bipolarAMIprogram.cpp -o  bipolarAMIprogram
+
+
+
+g++ NRZ-LsignalWindows.cpp -c
+g++ NRZ-LsignalWindows.cpp -o NRZ-L -lgraph
+
+g++ NRZ-IwindowsSignal.cpp -c
+g++ NRZ-IwindowsSignal.cpp -o NRZ-I -lgraph
+
+g++ windowsBipolarAMI.cpp -c
+g++ windowsBipolarAMI.cpp -o windowsBipolarAMI -lgraph
+
+g++ windowsManchester.cpp -c
+g++ windowsManchester.cpp -o Manchester -lgraph
+
+g++ allSignal.cpp -c
+g++ allSignal.cpp -o allSignal -lgraph
+
+
+////////////////////////////CONSOLE RUN///////////////////////////////
+
+./TransmitterCode
+
+./ReceiverProgram
+
+./allData
+
+./bipolarAMIprogram
+
+./NRZ-L
+
+./NRZ-I
+
+./windowsBipolarAMI
+
+./Manchester
+
+./allSignal
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////
+
+g++ TransmitterCode.cpp -c
+g++ TransmitterCode.cpp -o TransmitterCode
+./TransmitterCode
+
+
+g++ ReceiverProgram.cpp -c
+g++ ReceiverProgram.cpp -o ReceiverProgram
+./ReceiverProgram
+
+
+g++ allData.cpp -c
+g++ allData.cpp -o allData
+./allData
+
+
+g++ bipolarAMIprogram.cpp -c
+g++ bipolarAMIprogram.cpp -o  bipolarAMIprogram
+./bipolarAMIprogram
+
+
+***********windows*************
+
+g++ NRZ-LsignalWindows.cpp -c
+g++ NRZ-LsignalWindows.cpp -o NRZ-L -lgraph
+./NRZ-L
+
+g++ NRZ-IwindowsSignal.cpp -c
+g++ NRZ-IwindowsSignal.cpp -o NRZ-I -lgraph
+./NRZ-I
+
+g++ windowsBipolarAMI.cpp -c
+g++ windowsBipolarAMI.cpp -o windowsBipolarAMI -lgraph
+./windowsBipolarAMI
+
+g++ windowsManchester.cpp -c
+g++ windowsManchester.cpp -o Manchester -lgraph
+./Manchester
+
+
+g++ allSignal.cpp -c
+g++ allSignal.cpp -o allSignal -lgraph
+./allSignal
+////////////////////////////////////////////////////////
